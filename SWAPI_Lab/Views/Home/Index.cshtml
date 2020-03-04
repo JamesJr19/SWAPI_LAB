@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <form action="../Home/GetPeopleById" method="post" >
+        <input type="number" min="1" max="88" name="id" placeholder="Enter Id:" class="col-2"/>
+         <input type="submit"  value="Search for Person" />
+    </form>
+<br />
+<br />
+    <form action="../Home/GetPlanetById" method="post">
+        <input type="number" min="1" max="61" name="id" placeholder="Enter Id:" class="col-2" />
+         <input type="submit" value="Search for Planet" />
+    </form>

@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "GetPlanetById";
+}
+@model Result
+    <h1>Planet: @Model.name</h1>
+
+    <table class="table">
+        <tr>
+            <th>Population</th>
+            <th>Orbit</th>
+            <th>Diameter</th>
+        </tr>
+        <tr>
+            <td>@Model.population People</td>
+            <td>@Model.orbital_period Miles</td>
+            <td>@Model.diameter Miles</td>
+            
+        </tr>
+
+    </table>
+

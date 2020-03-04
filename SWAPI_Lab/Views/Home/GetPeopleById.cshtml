@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "GetPeopleById";
+}
+@model Results
+
+    <h1>@Model.name</h1>
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Height</th>
+            <th>Mass</th>
+            <th>Birth Year</th>
+        </tr>
+        <tr>
+            <td>@Model.name</td>
+            <td>@Model.gender</td>
+            <td>@Model.height</td>
+            <td>@Model.mass</td>
+            <td>@Model.birth_year</td>
+        </tr>
+    </table>
